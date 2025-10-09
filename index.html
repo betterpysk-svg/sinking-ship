@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Why Ships Sink — A Simple Explanation</title>
+  <title>Why Companies Sink (with Ship Metaphors) — A Passive‑Aggressive Guide</title>
   <meta name="description" content="A friendly, one-page site that explains why ships float, why they sometimes sink, and a tiny demo you can play with." />
   <style>
     :root {
@@ -80,20 +80,19 @@
 </head>
 <body>
   <header class="hero container">
-    <span class="badge" aria-hidden="true">Physics made friendly</span>
-    <h1>Why Ships Sink</h1>
-    <p class="subtitle">Ships float when the water they push aside (their <strong>displacement</strong>) weighs more than the ship itself. They sink when that balance is lost — usually by flooding, instability, or overload.</p>
+    <span class="badge" aria-hidden="true">Corporate physics, apparently</span>
+    <h1>Why Companies Sink (Yes, Like Ships)</h1>
+    <p class="subtitle">Companies float for the same reason ships do: the value they create (their <strong>displacement</strong>) outweighs the mass of process, politics, and pet projects they carry. They sink when that balance is… heroically mismanaged.</p>
   </header>
 
   <main class="container" id="main">
     <section class="section" aria-labelledby="key-idea">
-      <h2 id="key-idea">The key idea: buoyancy vs. weight</h2>
+      <h2 id="key-idea">The key idea: value vs. organizational weight</h2>
       <div class="grid">
-        <div class="diagram card" aria-label="Buoyancy diagram">
+        <div class="diagram card" aria-label="Buoyancy diagram (now with corporate shade)">
           <svg viewBox="0 0 640 280" role="img" aria-labelledby="svgTitle svgDesc">
-            <title id="svgTitle">Forces on a floating ship</title>
-            <desc id="svgDesc">Weight pulls down. Buoyancy pushes up with a force equal to the weight of displaced water.</desc>
-            <!-- Water -->
+            <title id="svgTitle">Forces on a floating org</title>
+            <desc id="svgDesc">Organizational weight pulls down. Value created for customers pushes up. Somewhere in the middle: a meeting about a meeting.</desc>
             <defs>
               <linearGradient id="water" x1="0" x2="0" y1="0" y2="1">
                 <stop offset="0%" stop-color="#14325c"/>
@@ -101,100 +100,96 @@
               </linearGradient>
             </defs>
             <rect x="0" y="130" width="640" height="150" fill="url(#water)" />
-            <!-- Hull -->
             <path d="M80,130 C120,80 520,80 560,130 L520,160 L120,160 Z" fill="#dbeafe" stroke="#91b7ff" stroke-width="2"/>
-            <!-- Arrows -->
             <g>
-              <!-- Weight -->
               <line x1="320" y1="50" x2="320" y2="110" stroke="#ffd670" stroke-width="4"/>
               <polygon points="320,110 310,95 330,95" fill="#ffd670"/>
-              <text x="330" y="92" fill="#ffd670" font-size="14" font-weight="600">Weight (ship)</text>
-              <!-- Buoyancy -->
+              <text x="330" y="92" fill="#ffd670" font-size="14" font-weight="600">Weight (overhead, politics, thrash)</text>
               <line x1="320" y1="210" x2="320" y2="160" stroke="#70d6ff" stroke-width="4"/>
               <polygon points="320,160 310,175 330,175" fill="#70d6ff"/>
-              <text x="330" y="178" fill="#70d6ff" font-size="14" font-weight="600">Buoyancy (displaced water)</text>
+              <text x="330" y="178" fill="#70d6ff" font-size="14" font-weight="600">Buoyancy (customer value, revenue)</text>
             </g>
           </svg>
-          <p class="muted">A ship floats when upward <strong>buoyancy</strong> equals downward <strong>weight</strong>. If weight grows (e.g., water floods in) or buoyancy shrinks (less hull displacing water), the ship sinks.</p>
+          <p class="muted">An org stays afloat when upward <strong>value</strong> equals or exceeds downward <strong>overhead</strong>. When overhead swells (hello, seven approval layers) or value shrinks (we shipped vibes), the org starts taking on water.</p>
         </div>
         <div class="card">
-          <h3>Archimedes' principle, in one line</h3>
-          <p>The buoyant force on a body in water equals the weight of the water it displaces. So a big, light hull can float; a small, dense object can sink.</p>
-          <div class="tip" style="margin-top:12px">"Average density" matters: ship mass ÷ ship volume. If that average becomes heavier than the water around it, down you go.</div>
+          <h3>Archimedes for managers</h3>
+          <p>The lift you get equals the value you displace in the market. A lightweight, focused team can float; a tiny team with a gigantic roadmap sinks under its own slide decks.</p>
+          <div class="tip" style="margin-top:12px">Average density matters: <em>org mass ÷ meaningful output</em>. If that ratio creeps above your market’s tolerance, expect a very calm all‑hands explaining how this is actually good.</div>
         </div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="reasons">
-      <h2 id="reasons">Common reasons ships sink</h2>
+      <h2 id="reasons">Common reasons companies sink (the ship analogy writes itself)</h2>
       <div class="grid">
         <article class="card">
-          <h3>1) Flooding</h3>
-          <p>Hull breaches, failed watertight doors, or damaged piping let water in. Water adds weight and reduces buoyancy at the same time.</p>
+          <h3>1) Flooding → Scope &amp; fire drills</h3>
+          <p>Endless “urgent” projects punch holes in focus. Work pours in faster than teams can pump it out. But sure, let’s add one more OKR.</p>
         </article>
         <article class="card">
-          <h3>2) Poor stability</h3>
-          <p>If the center of gravity is too high (top‑heavy cargo), the ship can capsize in waves and then flood.</p>
+          <h3>2) Poor stability → Top‑heavy org charts</h3>
+          <p>Too many layers, too little ballast in ICs. A strong gust of market reality and the strategy rolls over while everyone updates a RACI.</p>
         </article>
         <article class="card">
-          <h3>3) Overloading</h3>
-          <p>Exceeding load lines makes the ship sit lower. Less freeboard = easier flooding in rough seas.</p>
+          <h3>3) Overloading → Goals nobody de‑scoped</h3>
+          <p>Taking on everything ensures nothing has freeboard. When the sea gets choppy, the backlog comes aboard first.</p>
         </article>
         <article class="card">
-          <h3>4) Structural failure</h3>
-          <p>Fatigue, corrosion, or extreme stresses can open cracks that quickly become flooding points.</p>
+          <h3>4) Structural failure → Tech debt &amp; brittle process</h3>
+          <p>Fatigue, corrosion, and a sprinkling of “temporary” hacks. One hard wave and the legacy monolith decides it has had enough.</p>
         </article>
         <article class="card">
-          <h3>5) Human factors</h3>
-          <p>Navigational mistakes, poor maintenance, and ignored alarms often convert a small issue into a sinking.</p>
+          <h3>5) Human factors → Leadership choices</h3>
+          <p>Ignoring alarms because the dashboard looked red <em>last</em> week too. Navigational errors wrapped in confident memos.</p>
         </article>
         <article class="card">
-          <h3>6) Severe weather</h3>
-          <p>Storms and rogue waves strain structures and stability, sometimes beyond the ship’s safety margins.</p>
+          <h3>6) Severe weather → Market shifts</h3>
+          <p>Storms happen. The issue isn’t the wave; it’s discovering your lifeboats are a slide deck and a vibes‑based pricing model.</p>
         </article>
       </div>
     </section>
 
     <section class="section" aria-labelledby="prevention">
-      <h2 id="prevention">How design helps prevent sinking</h2>
+      <h2 id="prevention">How healthy org design keeps you afloat</h2>
       <div class="grid">
         <div class="card">
-          <h3>Compartments &amp; watertight bulkheads</h3>
-          <p>Dividing the hull limits flooding so the ship can survive damage in one or more compartments.</p>
+          <h3>Clear compartments</h3>
+          <p>Teams with crisp ownership and real autonomy limit the spread of flooding. Watertight bulkheads beat cross‑functional chaos.</p>
         </div>
         <div class="card">
-          <h3>Pumps &amp; damage control</h3>
-          <p>Bilge and emergency pumps remove water; crews patch, isolate, and counter‑flood to stay upright.</p>
+          <h3>Pumps that actually pump</h3>
+          <p>Incident response, rollback plans, and staffing for maintenance (not just new features) remove water faster than it arrives.</p>
         </div>
         <div class="card">
           <h3>Stability management</h3>
-          <p>Ballast water, cargo placement, and loading rules keep the center of gravity low and righting arm healthy.</p>
+          <p>Put weight (budget, talent) low and close to delivery. Fancy titles don’t right a listing ship; empowered ICs do.</p>
         </div>
         <div class="card">
-          <h3>Load lines &amp; operations</h3>
-          <p>International rules (Plimsoll marks) cap how deep a ship may sit for the season and water type.</p>
+          <h3>Load lines &amp; saying no</h3>
+          <p>Publicly mark the limit. When someone suggests “just one more initiative,” point at the Plimsoll line and smile politely.</p>
         </div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="demo">
-      <h2 id="demo">Tiny demo: will it float?</h2>
-      <p class="muted">Enter rough numbers and see how the ship’s <em>average density</em> compares to water. <em>Educational only.</em></p>
+      <h2 id="demo">Tiny demo: will this org float?</h2>
+      <p class="muted">Play with a brutally simplified model. If your org’s <em>average density</em> (overhead vs. output) beats the “market water,” you might even ship something. Wild.</p>
       <div class="demo" role="region" aria-live="polite">
         <div class="inputs">
           <div>
-            <label for="mass">Ship mass (metric tons)</label>
+            <label for="mass">Org mass ("tons" of overhead)</label>
             <input id="mass" type="number" inputmode="decimal" placeholder="e.g. 12,000" value="12000" min="0" />
           </div>
           <div>
-            <label for="volume">Underwater volume / displacement (m³)</label>
+            <label for="volume">Delivery capacity (arbitrary m³ of output)</label>
             <input id="volume" type="number" inputmode="decimal" placeholder="e.g. 11,500" value="11500" min="0" />
           </div>
           <div>
-            <label for="water">Water type</label>
+            <label for="water">Market density</label>
             <select id="water">
-              <option value="1000">Freshwater (~1000 kg/m³)</option>
-              <option value="1025" selected>Seawater (~1025 kg/m³)</option>
+              <option value="1000">Niche/Freshwater (friendly)</option>
+              <option value="1025" selected>Broad/Seawater (competitive)</option>
             </select>
           </div>
         </div>
@@ -206,18 +201,18 @@
     </section>
 
     <section class="section" aria-labelledby="faq">
-      <h2 id="faq">Quick questions</h2>
+      <h2 id="faq">Quick questions (that should be obvious)</h2>
       <details>
-        <summary>Why do heavy steel ships float while a small steel ball sinks?</summary>
-        <p>Shape and air make the ship’s average density lower than water. A solid ball has very high density, so it sinks.</p>
+        <summary>How do big companies float when small teams sink?</summary>
+        <p>Shape and air. Big orgs have hulls full of cash and distribution, so their average density can still be low. A tiny team made of pure meetings has very high density, so it sinks.</p>
       </details>
       <details>
-        <summary>Do ships sink faster in freshwater?</summary>
-        <p>Freshwater is slightly less dense than seawater, so there’s a little less buoyant force. A given ship floats a bit lower and has slightly less margin.</p>
+        <summary>Do companies sink faster in competitive markets?</summary>
+        <p>Yes. Competitive “water” is denser with expectations. You need more real output to displace it. Brand alone is not a life raft (sorry, deck chairs).</p>
       </details>
       <details>
-        <summary>What happens when a ship capsizes?</summary>
-        <p>Once it rolls far enough that the righting forces can’t bring it back, water can pour in through openings. Flooding then removes buoyancy and the ship may sink.</p>
+        <summary>What happens when a company capsizes?</summary>
+        <p>Once politics and panic roll the org past its righting moment, the openings (talent exits, customer churn) let water pour in. Then comes the retrospective about why nobody could’ve seen this coming.</p>
       </details>
     </section>
   </main>
